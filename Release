@@ -1,0 +1,8 @@
+Origin: kiwy's iOS 6 Repo
+Label: kiwy's iOS 6 Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Spotify6, BatteryGraph6 and VibeStrength for the iPhone 3GS on iOS 6

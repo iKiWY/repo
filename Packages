@@ -1,0 +1,71 @@
+Package: io.github.ikiwy.batterygraph6
+Version: 0.2.4
+Architecture: iphoneos-arm
+Maintainer: kiwy
+Installed-Size: 140
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/io.github.ikiwy.batterygraph6_0.2.4_iphoneos-arm.deb
+Size: 34228
+MD5sum: cc00ee02eeeebf14935dbde73ff50e0e
+SHA1: d321832652e23e04ba0a85de21f78fb6590e5717
+SHA256: 5dc2ce28d2e4d456260e362bf63d564fd4ef0ee51890737095c6202df3ec945b
+Section: Tweaks
+Description: Battery history for iOS 6: a 30-minute battery graph, screen on/off time and per-app use, in Settings.
+Author: kiwy
+Name: BatteryGraph6
+Depiction: https://ikiwy.github.io/repo/depictions/io.github.ikiwy.batterygraph6.html
+Icon: https://ikiwy.github.io/repo/icons/io.github.ikiwy.batterygraph6.png
+
+Package: io.github.ikiwy.spotify6
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: kiwy
+Installed-Size: 828
+Depends: firmware (>= 6.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified
+Filename: debs/io.github.ikiwy.spotify6_1.0.0_iphoneos-arm.deb
+Size: 794138
+MD5sum: ad1af1bb1230da6aef003c5a2157a953
+SHA1: cda9f75f18ba395c91cd9b258029023ebe77ee67
+SHA256: 34bb5eaa0c859f92227c79cc64a77d968c24bcc8e753b0c0c4293711394253dd
+Section: Multimedia
+Description: Spotify player for iOS 6 (based on riff by Second Track)
+Author: kiwy
+Name: Spotify6
+Depiction: https://ikiwy.github.io/repo/depictions/io.github.ikiwy.spotify6.html
+Icon: https://ikiwy.github.io/repo/icons/io.github.ikiwy.spotify6.png
+
+Package: io.github.ikiwy.spotify6widget
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: kiwy
+Installed-Size: 60
+Filename: debs/io.github.ikiwy.spotify6widget_1.1_iphoneos-arm.deb
+Size: 17686
+MD5sum: 7541f516259ee2ef23273cdfb377b55a
+SHA1: 14562b9be56a40204b929006b36f6011ca86282f
+SHA256: 2b5baed96f94638179724a1e8a2863934c72265e83f360a0d344b9c1af729ea5
+Section: Widgets
+Description: Now playing widget for Spotify6 in Notification Center (iOS 6)
+Author: kiwy
+Name: Spotify6 Widget
+Depiction: https://ikiwy.github.io/repo/depictions/io.github.ikiwy.spotify6widget.html
+Icon: https://ikiwy.github.io/repo/icons/io.github.ikiwy.spotify6widget.png
+
+Package: io.github.ikiwy.vibestrength
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: kiwy
+Installed-Size: 64
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/io.github.ikiwy.vibestrength_0.1.0_iphoneos-arm.deb
+Size: 13208
+MD5sum: 7c70e6daf6942c8160f13647e42ebfc8
+SHA1: d2b5a806a3d831ed5ce9113fb8765fcef69cfc68
+SHA256: 46728798cb4051ee1d5fd5ae62e9b8166a8840ed937d37503c420746bbeb2a74
+Section: Tweaks
+Description: Softer vibration: chops every buzz into short pulses, with levels for ringer on, silent and a scheduled window.
+Author: kiwy
+Name: VibeStrength
+Depiction: https://ikiwy.github.io/repo/depictions/io.github.ikiwy.vibestrength.html
+Icon: https://ikiwy.github.io/repo/icons/io.github.ikiwy.vibestrength.png
+
