@@ -52,16 +52,16 @@ Depiction: https://ikiwy.github.io/repo/depictions/io.github.ikiwy.spotify6widge
 Icon: https://ikiwy.github.io/repo/icons/io.github.ikiwy.spotify6widget.png
 
 Package: io.github.ikiwy.vibestrength
-Version: 0.1.0
+Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: kiwy
 Installed-Size: 64
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/io.github.ikiwy.vibestrength_0.1.0_iphoneos-arm.deb
-Size: 13208
-MD5sum: 7c70e6daf6942c8160f13647e42ebfc8
-SHA1: d2b5a806a3d831ed5ce9113fb8765fcef69cfc68
-SHA256: 46728798cb4051ee1d5fd5ae62e9b8166a8840ed937d37503c420746bbeb2a74
+Filename: debs/io.github.ikiwy.vibestrength_0.1.1_iphoneos-arm.deb
+Size: 13464
+MD5sum: 3836ee516bfb3c91f29245dfe0ce6046
+SHA1: e2739dc13f3c2a36fed22cf99d25f5d9cccbb1d1
+SHA256: f61e13c46adb7148d9ded2df9bca22be2a74df17032885b349d2edf7691ee83e
 Section: Tweaks
 Description: Softer vibration: chops every buzz into short pulses, with levels for ringer on, silent and a scheduled window.
 Author: kiwy
