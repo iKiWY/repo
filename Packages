@@ -17,35 +17,35 @@ Depiction: https://ikiwy.github.io/repo/depictions/io.github.ikiwy.batterygraph6
 Icon: https://ikiwy.github.io/repo/icons/io.github.ikiwy.batterygraph6.png
 
 Package: io.github.ikiwy.spotify6
-Version: 1.1.3
+Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: kiwy
-Installed-Size: 848
-Depends: firmware (>= 6.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified
-Filename: debs/io.github.ikiwy.spotify6_1.1.3_iphoneos-arm.deb
-Size: 817152
-MD5sum: c1f54edad18cf25e4588bbbe4120e073
-SHA1: 216087bbfa1b2dcc7447f18b479ea55c086ae401
-SHA256: 321a6355a9075b9e8c43a9ff87eac0b09ac723b7b215cc817fb86dc55c6b0b5b
+Installed-Size: 948
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified
+Filename: debs/io.github.ikiwy.spotify6_1.2.0_iphoneos-arm.deb
+Size: 916938
+MD5sum: 39b3b79bc510cb9aa08215a326c72d91
+SHA1: b97c4df4b4e37bdd33394c359ba7120f6eeb32e6
+SHA256: 915d07bbffa571c59fe9ebbb0e9112acfa4061f221cc276373fb09c94e5eef61
 Section: Multimedia
-Description: Spotify player for iOS 6 (based on riff by Second Track)
+Description: Spotify player for iOS 5 and 6, iPhone, iPod and iPad
 Author: kiwy
 Name: Spotify6
 Depiction: https://ikiwy.github.io/repo/depictions/io.github.ikiwy.spotify6.html
 Icon: https://ikiwy.github.io/repo/icons/io.github.ikiwy.spotify6.png
 
 Package: io.github.ikiwy.spotify6widget
-Version: 1.1
+Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: kiwy
 Installed-Size: 60
-Filename: debs/io.github.ikiwy.spotify6widget_1.1_iphoneos-arm.deb
-Size: 17686
-MD5sum: 7541f516259ee2ef23273cdfb377b55a
-SHA1: 14562b9be56a40204b929006b36f6011ca86282f
-SHA256: 2b5baed96f94638179724a1e8a2863934c72265e83f360a0d344b9c1af729ea5
+Filename: debs/io.github.ikiwy.spotify6widget_1.2_iphoneos-arm.deb
+Size: 17706
+MD5sum: b3ae0fa2ee37c159ecef9e4831fb4f21
+SHA1: 115717222dafe6b7a6ce05cf99c974322c4bdb88
+SHA256: 55f67203999ef7eb41268eca2d7d3522c40f1d0dc9570a2789b8a97bc1cc00c1
 Section: Widgets
-Description: Now playing widget for Spotify6 in Notification Center (iOS 6)
+Description: Now playing widget for Spotify6 in Notification Center (iOS 5 and 6; not on iPads with iOS 5)
 Author: kiwy
 Name: Spotify6 Widget
 Depiction: https://ikiwy.github.io/repo/depictions/io.github.ikiwy.spotify6widget.html
