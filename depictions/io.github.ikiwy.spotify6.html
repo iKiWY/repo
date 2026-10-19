@@ -14,7 +14,11 @@ h2 { margin: 14px 19px 6px; font-size: 17px; font-weight: bold; color: #4c566c; 
 .panel li { padding: 10px 12px; border-top: 1px solid #e0e0e0; }
 .panel li:first-child { border-top: 0; }
 .panel li b { display: block; }
-.shots { overflow-x: auto; -webkit-overflow-scrolling: touch; white-space: nowrap; padding: 10px 6px 6px 10px; }
+.shots { position: relative; height: 282px; overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; }
+/* Cydia shows this page in a frame that iOS widens to fit its content. Absolutely positioned rows don't
+   count toward that width, so the long screenshot row scrolls inside its box instead of widening the page. */
+.row { position: absolute; left: 0; top: 0; white-space: nowrap; padding: 10px 4px 6px 10px; }
+.ipad { height: 222px; }
 .shot { display: inline-block; margin-right: 6px; text-align: center; font-size: 12px; color: #4c566c; vertical-align: top; }
 .shot img { display: block; height: 240px; margin-bottom: 4px; border: 1px solid #ccc; border-radius: 4px; }
 .ipad .shot img { height: 180px; }
@@ -27,10 +31,10 @@ h2 { margin: 14px 19px 6px; font-size: 17px; font-weight: bold; color: #4c566c; 
 <div class="panel"><p>A native Spotify client for iOS 5 and 6 on iPhone, iPod touch and iPad, based on riff by Second Track. It runs entirely on the device. Spotify Premium is required.</p></div>
 
 <h2>iPhone</h2>
-<div class="panel"><div class="shots"><span class="shot"><img src="../screenshots/spotify6/iphone-home.jpg" alt="Home">Home</span><span class="shot"><img src="../screenshots/spotify6/iphone-player.jpg" alt="Now playing">Now playing</span><span class="shot"><img src="../screenshots/spotify6/iphone-queue.jpg" alt="Queue">Queue</span><span class="shot"><img src="../screenshots/spotify6/iphone-album.jpg" alt="Album">Album</span><span class="shot"><img src="../screenshots/spotify6/iphone-menu.jpg" alt="Song menu">Song menu</span><span class="shot"><img src="../screenshots/spotify6/iphone-search.jpg" alt="Search">Search</span><span class="shot"><img src="../screenshots/spotify6/iphone-artist.jpg" alt="Artist">Artist</span></div></div>
+<div class="panel"><div class="shots"><div class="row"><span class="shot"><img src="../screenshots/spotify6/iphone-home.jpg" alt="Home">Home</span><span class="shot"><img src="../screenshots/spotify6/iphone-player.jpg" alt="Now playing">Now playing</span><span class="shot"><img src="../screenshots/spotify6/iphone-queue.jpg" alt="Queue">Queue</span><span class="shot"><img src="../screenshots/spotify6/iphone-album.jpg" alt="Album">Album</span><span class="shot"><img src="../screenshots/spotify6/iphone-menu.jpg" alt="Song menu">Song menu</span><span class="shot"><img src="../screenshots/spotify6/iphone-search.jpg" alt="Search">Search</span><span class="shot"><img src="../screenshots/spotify6/iphone-artist.jpg" alt="Artist">Artist</span></div></div></div>
 
 <h2>iPad</h2>
-<div class="panel"><div class="shots ipad"><span class="shot"><img src="../screenshots/spotify6/ipad-home-portrait.jpg" alt="Home (portrait)">Home (portrait)</span><span class="shot"><img src="../screenshots/spotify6/ipad-home-landscape.jpg" alt="Home (landscape)">Home (landscape)</span><span class="shot"><img src="../screenshots/spotify6/ipad-player-portrait.jpg" alt="Now playing (portrait)">Now playing (portrait)</span><span class="shot"><img src="../screenshots/spotify6/ipad-player-queue-landscape.jpg" alt="Now playing with queue">Now playing with queue</span><span class="shot"><img src="../screenshots/spotify6/ipad-playlist-landscape.jpg" alt="Playlist">Playlist</span><span class="shot"><img src="../screenshots/spotify6/ipad-album-landscape.jpg" alt="Album">Album</span></div></div>
+<div class="panel"><div class="shots ipad"><div class="row"><span class="shot"><img src="../screenshots/spotify6/ipad-home-portrait.jpg" alt="Home (portrait)">Home (portrait)</span><span class="shot"><img src="../screenshots/spotify6/ipad-home-landscape.jpg" alt="Home (landscape)">Home (landscape)</span><span class="shot"><img src="../screenshots/spotify6/ipad-player-portrait.jpg" alt="Now playing (portrait)">Now playing (portrait)</span><span class="shot"><img src="../screenshots/spotify6/ipad-player-queue-landscape.jpg" alt="Now playing with queue">Now playing with queue</span><span class="shot"><img src="../screenshots/spotify6/ipad-playlist-landscape.jpg" alt="Playlist">Playlist</span><span class="shot"><img src="../screenshots/spotify6/ipad-album-landscape.jpg" alt="Album">Album</span></div></div></div>
 
 <h2>Notification Center widget</h2>
 <div class="panel widget"><img src="../screenshots/spotify6/iphone-widget.jpg" alt="Notification Center widget"></div>
