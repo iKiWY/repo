@@ -2,15 +2,51 @@
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Spotify6</title>
 <style>
-body { margin: 0; padding: 12px; font: 15px/1.4 Helvetica, Arial, sans-serif; color: #222; background: #fff; }
-h1 { font-size: 20px; margin: 0 0 8px; }
-p, li { margin: 0 0 8px; }
-ul { padding-left: 20px; margin: 0 0 8px; }
-.note { background: #f4f4f4; border: 1px solid #ddd; border-radius: 6px; padding: 8px; font-size: 13px; color: #555; }
+/* Matches Cydia on iOS 5/6: grey pinstripes (8 px: 5 light, 3 dark), white grouped panels with a grey border */
+body { margin: 0; padding: 4px 0 16px; font: 15px/1.4 Helvetica, Arial, sans-serif; color: #000;
+  background-color: #d4d9e2;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #d1d6e0), color-stop(0.375, #d1d6e0), color-stop(0.375, #d4d9e2), color-stop(1, #d4d9e2));
+  -webkit-background-size: 8px 8px; background-size: 8px 8px; }
+h2 { margin: 14px 19px 6px; font-size: 17px; font-weight: bold; color: #4c566c; text-shadow: 0 1px 0 #fff; }
+.panel { margin: 0 9px 10px; background: #fff; border: 1px solid #9c9c9c; border-radius: 8px; overflow: hidden; }
+.panel p { margin: 0; padding: 10px 12px; }
+.panel ul { margin: 0; padding: 0; list-style: none; }
+.panel li { padding: 10px 12px; border-top: 1px solid #e0e0e0; }
+.panel li:first-child { border-top: 0; }
+.panel li b { display: block; }
+.shots { overflow-x: auto; -webkit-overflow-scrolling: touch; white-space: nowrap; padding: 10px 6px 6px 10px; }
+.shot { display: inline-block; margin-right: 6px; text-align: center; font-size: 12px; color: #4c566c; vertical-align: top; }
+.shot img { display: block; height: 240px; margin-bottom: 4px; border: 1px solid #ccc; border-radius: 4px; }
+.ipad .shot img { height: 180px; }
+.widget { padding: 10px; text-align: center; }
+.widget img { width: 100%; max-width: 300px; border-radius: 4px; }
+.footer { margin: 4px 19px 0; font-size: 13px; color: #4c566c; text-shadow: 0 1px 0 #fff; text-align: center; }
 </style></head><body>
-<h1>Spotify6</h1>
-<p>A native Spotify client for iOS 5 and 6 on iPhone, iPod touch and iPad, based on riff by Second Track. It runs entirely on the device. Spotify Premium is required.</p>
-<ul><li>Your playlists, albums, artists and liked songs</li><li>Queue with drag to reorder</li><li>Search, artist and album pages</li><li>Offline downloads and a song cache</li><li>Lock screen controls and background playback</li><li>New in 1.2.0: iOS 5 support, a native iPad layout (portrait and landscape), the full 4-inch screen on iPhone 5 and iPod touch 5, and songs that start playing while they download</li></ul>
-<p>Spotify6 installs as a normal App Store style app (it needs AppSync Unified). Updating keeps your login and downloads. <b>Removing the package also removes the app and its data.</b></p>
-<p class="note">Unofficial and not affiliated with Spotify. It uses undocumented Spotify interfaces with your own account, which may be against Spotify&#39;s Terms of Use. Use at your own risk.</p>
+
+<h2>About</h2>
+<div class="panel"><p>A native Spotify client for iOS 5 and 6 on iPhone, iPod touch and iPad, based on riff by Second Track. It runs entirely on the device. Spotify Premium is required.</p></div>
+
+<h2>iPhone</h2>
+<div class="panel"><div class="shots"><span class="shot"><img src="../screenshots/spotify6/iphone-home.jpg" alt="Home">Home</span><span class="shot"><img src="../screenshots/spotify6/iphone-player.jpg" alt="Now playing">Now playing</span><span class="shot"><img src="../screenshots/spotify6/iphone-queue.jpg" alt="Queue">Queue</span><span class="shot"><img src="../screenshots/spotify6/iphone-album.jpg" alt="Album">Album</span><span class="shot"><img src="../screenshots/spotify6/iphone-menu.jpg" alt="Song menu">Song menu</span><span class="shot"><img src="../screenshots/spotify6/iphone-search.jpg" alt="Search">Search</span><span class="shot"><img src="../screenshots/spotify6/iphone-artist.jpg" alt="Artist">Artist</span></div></div>
+
+<h2>iPad</h2>
+<div class="panel"><div class="shots ipad"><span class="shot"><img src="../screenshots/spotify6/ipad-home-portrait.jpg" alt="Home (portrait)">Home (portrait)</span><span class="shot"><img src="../screenshots/spotify6/ipad-home-landscape.jpg" alt="Home (landscape)">Home (landscape)</span><span class="shot"><img src="../screenshots/spotify6/ipad-player-portrait.jpg" alt="Now playing (portrait)">Now playing (portrait)</span><span class="shot"><img src="../screenshots/spotify6/ipad-player-queue-landscape.jpg" alt="Now playing with queue">Now playing with queue</span><span class="shot"><img src="../screenshots/spotify6/ipad-playlist-landscape.jpg" alt="Playlist">Playlist</span><span class="shot"><img src="../screenshots/spotify6/ipad-album-landscape.jpg" alt="Album">Album</span></div></div>
+
+<h2>Notification Center widget</h2>
+<div class="panel widget"><img src="../screenshots/spotify6/iphone-widget.jpg" alt="Notification Center widget"></div>
+
+<h2>Features</h2>
+<div class="panel"><ul>
+<li>Your playlists, albums, artists and liked songs</li>
+<li>Queue with drag to reorder</li>
+<li>Search, artist and album pages</li>
+<li>Offline downloads and a song cache</li>
+<li>Lock screen controls and background playback</li>
+<li><b>New in 1.2.0</b>iOS 5 support, a native iPad layout (portrait and landscape), the full 4-inch screen on iPhone 5 and iPod touch 5, and songs that start playing while they download</li>
+</ul></div>
+
+<h2>Installing</h2>
+<div class="panel"><p>Spotify6 installs as a normal App Store style app (it needs AppSync Unified). Updating keeps your login and downloads. <b>Removing the package also removes the app and its data.</b></p></div>
+
+<p class="footer">Unofficial and not affiliated with Spotify. It uses undocumented Spotify interfaces with your own account, which may be against Spotify&#39;s Terms of Use. Use at your own risk.</p>
 </body></html>
