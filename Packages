@@ -23,10 +23,10 @@ Maintainer: kiwy
 Installed-Size: 956
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified
 Filename: debs/io.github.ikiwy.spotify6_1.2.1-2_iphoneos-arm.deb
-Size: 923034
-MD5sum: 49b35090014da0b9117ae6ecb02c1c2b
-SHA1: 68864a0c72d454ff194e66424e6a3f0bf559c9be
-SHA256: 56309940bf8f4d23bc549691d96e441edf33cad205ffeb3c4eaa2655515e0e72
+Size: 923400
+MD5sum: f5a9abc8c922b60e2f750cb3a8973965
+SHA1: 557f1a7e182fb8fbf208a77b0098a7c7e9db90f5
+SHA256: e30ca4882281ed52d3e3fd8c3cb5ea89cf739695c6287d3bdc465cca0097207e
 Section: Multimedia
 Description: Spotify player for iOS 5 and 6, iPhone, iPod and iPad
 Author: kiwy
