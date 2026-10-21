@@ -17,16 +17,16 @@ Depiction: https://ikiwy.github.io/repo/depictions/io.github.ikiwy.batterygraph6
 Icon: https://ikiwy.github.io/repo/icons/io.github.ikiwy.batterygraph6.png
 
 Package: io.github.ikiwy.spotify6
-Version: 1.2.2-1
+Version: 1.2.2-2
 Architecture: iphoneos-arm
 Maintainer: kiwy
-Installed-Size: 1008
+Installed-Size: 1012
 Depends: firmware (>= 5.0), firmware (<< 7.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified
-Filename: debs/io.github.ikiwy.spotify6_1.2.2-1_iphoneos-arm.deb
-Size: 974836
-MD5sum: c5ad6179618c6e285c5dee08dfc796d7
-SHA1: fc96bd2ed578645b1f7c4967a28e8d35c446d21d
-SHA256: 01ee8a82e14dfe9a542918c931b8f902ca28370339d0a696ee9cd19e990a75cd
+Filename: debs/io.github.ikiwy.spotify6_1.2.2-2_iphoneos-arm.deb
+Size: 980808
+MD5sum: e91f694450d0f3ce69859a753681dd70
+SHA1: bc4f882f6ad869df295bd8d5001844d1ff81706b
+SHA256: 93af088fb17712732abc41ee3b6d37a60e41f340b0f19d77d4f56895757d7028
 Section: Multimedia
 Description: Spotify player for iOS 5 and 6, iPhone, iPod and iPad
 Author: kiwy
