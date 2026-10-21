@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spotty (Beta)</title>
+<style>
+/* Matches Cydia on iOS 5/6: grey pinstripes (8 px: 5 light, 3 dark), white grouped panels with a grey border */
+body { margin: 0; padding: 4px 0 16px; font: 15px/1.4 Helvetica, Arial, sans-serif; color: #000;
+  background-color: #d4d9e2;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #d1d6e0), color-stop(0.375, #d1d6e0), color-stop(0.375, #d4d9e2), color-stop(1, #d4d9e2));
+  -webkit-background-size: 8px 8px; background-size: 8px 8px; }
+h2 { margin: 14px 19px 6px; font-size: 17px; font-weight: bold; color: #4c566c; text-shadow: 0 1px 0 #fff; }
+.panel { margin: 0 9px 10px; background: #fff; border: 1px solid #9c9c9c; border-radius: 8px; overflow: hidden; }
+.panel p { margin: 0; padding: 10px 12px; }
+.panel ul { margin: 0; padding: 0; list-style: none; }
+.panel li { padding: 10px 12px; border-top: 1px solid #e0e0e0; }
+.panel li:first-child { border-top: 0; }
+.panel li b { display: block; }
+.shots { position: relative; height: 282px; overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; }
+/* Cydia shows this page in a frame that iOS widens to fit its content. Absolutely positioned rows don't
+   count toward that width, so the long screenshot row scrolls inside its box instead of widening the page. */
+.row { position: absolute; left: 0; top: 0; white-space: nowrap; padding: 10px 4px 6px 10px; }
+.ipad { height: 222px; }
+.shot { display: inline-block; margin-right: 6px; text-align: center; font-size: 12px; color: #4c566c; vertical-align: top; }
+.shot img { display: block; height: 240px; margin-bottom: 4px; border: 1px solid #ccc; border-radius: 4px; }
+.ipad .shot img { height: 180px; }
+.widget { padding: 10px; text-align: center; }
+.widget img { width: 100%; max-width: 300px; border-radius: 4px; }
+.footer { margin: 4px 19px 0; font-size: 13px; color: #4c566c; text-shadow: 0 1px 0 #fff; text-align: center; }
+</style></head><body>
+
+<h2>About this beta</h2>
+<div class="panel"><p>A test version of the next big update of Spotify6 (2.0, which will be called Spotty). It installs as its own app, <b>Spotty (Beta)</b>, next to Spotify6, so your normal app keeps working. You log in once in the beta. Spotify Premium is required.</p></div>
+
+<h2>What&#39;s new</h2>
+<div class="panel"><ul>
+<li><b>More iOS versions</b>Runs on iOS 3.1 to 10 (iPhone, iPod touch and iPad)</li>
+<li><b>Older devices</b>iPhone 2G/3G and iPod touch 1G/2G are supported by the app</li>
+<li><b>Send log</b>Settings › Debug info › Send log uploads the app log and gives you a short code for the developer</li>
+</ul></div>
+
+<h2>Please test</h2>
+<div class="panel"><ul>
+<li>Logging in (pairing code at spotify.com/pair)</li>
+<li>Home, Library, Search and opening playlists and albums</li>
+<li>Playing songs, skipping, the queue and downloads</li>
+<li>Swipe right on a song (add to queue) and long-press a song (menu)</li>
+<li>On iOS 8, 9 and 10: everything. Nobody has tried these yet.</li>
+</ul></div>
+
+<h2>Something wrong?</h2>
+<div class="panel"><p>Right after it happens (before closing the app): open <b>Settings › Debug info</b>, tap <b>Send log</b> and send the code it shows to the developer. The log is uploaded to paste.rs, a public text site; your Spotify account name, user ID and login data are removed first.</p></div>
+
+<h2>Known issues</h2>
+<div class="panel"><ul>
+<li>The first start on older devices can take a while</li>
+</ul></div>
+
+<h2>Installing</h2>
+<div class="panel"><p>Needs AppSync for your iOS version. If Cydia can&#39;t find it, add the repo below (Sources › Edit › Add):</p><ul>
+<li><b>iOS 5 to 10: AppSync Unified</b>https://lukezgd.github.io/repo/</li>
+<li><b>iOS 4: AppSync for iOS 4.0</b>http://repo.legacyios.com/</li>
+<li><b>iOS 3: AppSync for OS 3.1 or OS 3.2</b>https://cydia.invoxiplaygames.uk/ios3/ (or http://ios3.party/)</li>
+</ul><p><i>These repos are run by other people. I&#39;m not affiliated with them; they are listed only to help you find AppSync, and I take no responsibility for their content. Add and install at your own risk.</i></p><p>Updating the beta keeps its login and downloads. <b>Removing the package also removes the beta app and its data.</b> Spotify6 is not touched.</p></div>
+
+<p class="footer">Unofficial and not affiliated with Spotify. It uses undocumented Spotify interfaces with your own account, which may be against Spotify&#39;s Terms of Use. Use at your own risk.</p>
+<!-- visit counter: every page view adds 1 (stats: https://hits.sh/ikiwy.github.io/repo/io.github.ikiwy.spotty.beta/) -->
+<img src="https://hits.sh/ikiwy.github.io/repo/io.github.ikiwy.spotty.beta.svg" width="1" height="1" alt="" style="position:absolute;left:0;bottom:0;opacity:0">
+</body></html>
