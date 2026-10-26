@@ -52,16 +52,16 @@ Depiction: https://ikiwy.github.io/repo/depictions/io.github.ikiwy.spotify6widge
 Icon: https://ikiwy.github.io/repo/icons/io.github.ikiwy.spotify6widget.png
 
 Package: io.github.ikiwy.spotty.beta
-Version: 2.0.0~beta7
+Version: 2.0.0~beta8
 Architecture: iphoneos-arm
 Maintainer: kiwy
 Installed-Size: 2284
 Depends: firmware (>= 3.1), firmware (<< 11.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | net.angelxwind.appsync40plus | us.hackulo.appsync40 | us.hackulo.appsync41 | us.hackulo.appsync42 | us.hackulo.appsync32 | us.hackulo.appsync31 | appsync
-Filename: debs/io.github.ikiwy.spotty.beta_2.0.0~beta7_iphoneos-arm.deb
-Size: 2203848
-MD5sum: 67106684350feff6d1b51130b8a8a530
-SHA1: 2697d13d3550555193675888a0165c98c39b45db
-SHA256: 76de3be222ace63659a325185de249efcaaa8c5e5ab2f0e60eb719989868f4b3
+Filename: debs/io.github.ikiwy.spotty.beta_2.0.0~beta8_iphoneos-arm.deb
+Size: 2203686
+MD5sum: 2e251b1f2b18416cb076c2a19cacfe42
+SHA1: 98d6e680359b794656b13b6254553c1844e9431a
+SHA256: fb3d7932c8f07bbf59db2bc6228b4eb24ddc3a4df2d8df4760fbfa3642b91744
 Section: Multimedia
 Description: Test version of the next Spotify6 (Spotty 2.0). Installs next to Spotify6 as its own app with its own login.
 Author: kiwy
